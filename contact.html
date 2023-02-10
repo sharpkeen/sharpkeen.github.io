@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@700&family=Montserrat:wght@200;300&family=Nunito&family=Nunito+Sans&family=Poppins&family=Raleway&family=Roboto&family=Source+Sans+Pro:wght@700&family=Work+Sans:wght@700&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='style.css'>
+	<title>Contact Me</title>
+</head>
+<body>
+	<div class='links'>
+		<h3 id='heading3'>My Portfolio</h3>
+		<a href='index.html' class='link'>Home</a>
+		<a href='projects.html' class='link'>Projects</a>
+		<a href='about.html' class='link'>About</a>
+		<a href='contact.html' class='link' style="border-bottom: 4px solid hotpink; color:hotpink;">Contact</a>
+	</div>
+
+
+<div class='contact-div'>
+	<div class='contact-form'>
+		<br>
+		<h1>Contact Me</h1>
+		<h4>Fill out this form below to message me.</h4>
+		<form action='https://api.web3forms.com/submit' method="POST" class='form'>
+			<input type="hidden" name="apikey" value="19be0056-29de-45ea-ac93-dd287be53ed6">
+			<label name='first-name' id='top'>FIRST NAME<label style="color:red;font-family:'Arial',sans-serif;"> *</label></label>
+			<input type='text' name='first-name' required>
+			<label name='last-name'>LAST NAME<label style="color:red;font-family:'Arial',sans-serif;"> *</label></label>
+			<input type="text" name='last-name' required>
+			<label name='email'>EMAIL ADDRESS<label style="color:red;font-family:'Arial',sans-serif;"> *</label></label>
+			<input type="email" name='email' required>
+			<label name='message'>MESSAGE<label style="color:red;font-family:'Arial',sans-serif;"> *</label></label>
+			<textarea name='message' id='message' required></textarea>
+			<input type="hidden" name="redirect" value="https://monicak.codewizardshq.com/h14_capstone_12/index.html">
+			<button type="submit" id='bottom'>Submit Form</button>
+		</form>	
+	</div>
+</div>
+
+</body>
+</html>
