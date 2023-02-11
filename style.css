@@ -219,6 +219,7 @@ input:focus{
 	background-size:cover;
 	height:18em;
 	width:26em;
+	margin-top:2%;
 	transition:1s all ease;
 }
 
