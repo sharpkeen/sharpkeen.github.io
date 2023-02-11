@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	/*background-image: url('abstractbg.png');*/
 	background-size: cover;
+	transition: 1s all ease;
 }
 
 .links{
